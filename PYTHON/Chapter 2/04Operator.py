@@ -23,3 +23,5 @@ d = x or y
 e = x and y 
 print(d)
 print(e)
+
+print(not(False))
