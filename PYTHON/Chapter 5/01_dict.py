@@ -1,3 +1,5 @@
+e = {} # Ye ek empty dictionary hai
+
 marks = {
     "key":"value",
     "Raju": 67,
