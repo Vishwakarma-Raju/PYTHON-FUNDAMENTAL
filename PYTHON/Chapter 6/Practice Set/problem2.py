@@ -5,8 +5,9 @@ s3 = int(input("Enter Chemistry Mark: "))
 avg = ((s1+s2+s3)/300)*100
 print("Percentage is: ",avg)
 
-
-if(avg>=80):
+if(avg<=100):
+    print("You are Passed with A+ Grade")
+elif(avg>=80):
     print("You are Passed with A Grade")
 elif(avg>=60):
     print("You are Passed with B Grade")
